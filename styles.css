@@ -1,6 +1,8 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+
 .banner {
     background-image: url(/image/banner.jpg);
     background-size: cover;
@@ -8,8 +10,17 @@
     padding: 250px 0;
 }
 
-.skills-padding{
+.skills-padding {
     padding: 70px 0;
+}
+
+.img-fluid {
+    border-radius: 4px;
+}
+
+.card-text {
+    text-align: left;
+
 }
 
 @media (max-width: 526px) {
